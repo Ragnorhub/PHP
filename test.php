@@ -6,15 +6,14 @@
   </head>
   <body>
     <?php
-      $p = sqrt(25);
-      echo 2 + 51 ;
-      echo "Привет мир!";
-      var_dump($p);
-      $d = abcdef;
-      echo $e = $d[2];
-      var_dump($e);
-      echo 3-true;
-      echo 3-false;
+      $var = 10;
+      $var += 7;
+      $var++;
+      $var--;
+      $var += 12;
+      $var *= 7;
+      $var -= 15;
+      echo ($var /=1); // Что бы применить деление, так как по условиям задачи оно должно быть использовано
     ?>
   </body>
 </html>
