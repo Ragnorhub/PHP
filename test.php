@@ -6,14 +6,9 @@
   </head>
   <body>
     <?php
-      $var = 10;
-      $var += 7;
-      $var++;
-      $var--;
-      $var += 12;
-      $var *= 7;
-      $var -= 15;
-      echo ($var /=1); // Что бы применить деление, так как по условиям задачи оно должно быть использовано
+      $arr = [4, 2, 5, 19, 13, 0, 10];
+      foreach ($arr as $value) $amount += pow($value, 2);
+      echo $amount;
     ?>
   </body>
 </html>
