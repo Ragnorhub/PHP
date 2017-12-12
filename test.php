@@ -6,9 +6,7 @@
   </head>
   <body>
     <?php
-      $arr = [4, 2, 5, 19, 13, 0, 10];
-      foreach ($arr as $value) $amount += pow($value, 2);
-      echo $amount;
+      echo round(sqrt(379)) , "<br>" , round(sqrt(379),1) , "<br>" , round(sqrt(379),2);
     ?>
   </body>
 </html>
