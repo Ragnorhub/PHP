@@ -6,7 +6,11 @@
   </head>
   <body>
     <?php
-      echo round(sqrt(379)) , "<br>" , round(sqrt(379),1) , "<br>" , round(sqrt(379),2);
+    $arr = [1, 2, 4, 5, 5];
+    $arr = array_unique($arr);
+    echo $arr1 = key(max($arr));
+    unset($arr[3]);
+    var_dump($arr);
     ?>
   </body>
 </html>
