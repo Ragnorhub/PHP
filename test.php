@@ -6,9 +6,12 @@
   </head>
   <body>
     <?php
-      $arr = range(a,z);
-      shuffle($arr);
-      echo explode('', $arr, 6);
+
+    $arr = [1, 2, 4, 5, 5];
+    $arr = array_unique($arr);
+    echo $arr1 = key(max($arr));
+    unset($arr[3]);
+    var_dump($arr);
     ?>
   </body>
 </html>
