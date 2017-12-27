@@ -6,7 +6,9 @@
   </head>
   <body>
     <?php
-      echo round(sqrt(379)) , "<br>" , round(sqrt(379),1) , "<br>" , round(sqrt(379),2);
+      $arr = range(a,z);
+      shuffle($arr);
+      echo explode('', $arr, 6);
     ?>
   </body>
 </html>
